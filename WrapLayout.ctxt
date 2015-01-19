@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WrapLayout()
+comment0.text=\r\n\ Constructs\ a\ new\ <code>WrapLayout</code>\ with\ a\ left\ alignment\ and\ a\ default\ 5-unit\ horizontal\ and\ vertical\ gap.\r\n
+comment1.params=align
+comment1.target=WrapLayout(int)
+comment1.text=\r\n\ Constructs\ a\ new\ <code>FlowLayout</code>\ with\ the\ specified\ alignment\ and\ a\ default\ 5-unit\ horizontal\ and\ vertical\ gap.\ The\ value\r\n\ of\ the\ alignment\ argument\ must\ be\ one\ of\ <code>WrapLayout</code>,\ <code>WrapLayout</code>,\ or\ <code>WrapLayout</code>.\r\n\ \r\n\ @param\ align\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ alignment\ value\r\n
+comment2.params=align\ hgap\ vgap
+comment2.target=WrapLayout(int,\ int,\ int)
+comment2.text=\r\n\ Creates\ a\ new\ flow\ layout\ manager\ with\ the\ indicated\ alignment\ and\ the\ indicated\ horizontal\ and\ vertical\ gaps.\r\n\ <p>\r\n\ The\ value\ of\ the\ alignment\ argument\ must\ be\ one\ of\ <code>WrapLayout</code>,\ <code>WrapLayout</code>,\ or\ <code>WrapLayout</code>.\r\n\ \r\n\ @param\ align\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ alignment\ value\r\n\ @param\ hgap\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ horizontal\ gap\ between\ components\r\n\ @param\ vgap\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ vertical\ gap\ between\ components\r\n
+comment3.params=target
+comment3.target=java.awt.Dimension\ preferredLayoutSize(java.awt.Container)
+comment3.text=\r\n\ Returns\ the\ preferred\ dimensions\ for\ this\ layout\ given\ the\ <i>visible</i>\ components\ in\ the\ specified\ target\ container.\r\n\ \r\n\ @param\ target\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ component\ which\ needs\ to\ be\ laid\ out\r\n\ @return\ the\ preferred\ dimensions\ to\ lay\ out\ the\ subcomponents\ of\ the\ specified\ container\r\n
+comment4.params=target
+comment4.target=java.awt.Dimension\ minimumLayoutSize(java.awt.Container)
+comment4.text=\r\n\ Returns\ the\ minimum\ dimensions\ needed\ to\ layout\ the\ <i>visible</i>\ components\ contained\ in\ the\ specified\ target\ container.\r\n\ \r\n\ @param\ target\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ component\ which\ needs\ to\ be\ laid\ out\r\n\ @return\ the\ minimum\ dimensions\ to\ lay\ out\ the\ subcomponents\ of\ the\ specified\ container\r\n
+comment5.params=target\ preferred
+comment5.target=java.awt.Dimension\ layoutSize(java.awt.Container,\ boolean)
+comment5.text=\r\n\ Returns\ the\ minimum\ or\ preferred\ dimension\ needed\ to\ layout\ the\ target\ container.\r\n\ \r\n\ @param\ target\r\n\ \ \ \ \ \ \ \ \ \ \ \ target\ to\ get\ layout\ size\ for\r\n\ @param\ preferred\r\n\ \ \ \ \ \ \ \ \ \ \ \ should\ preferred\ size\ be\ calculated\r\n\ @return\ the\ dimension\ to\ layout\ the\ target\ container\r\n
+comment6.params=dim\ rowWidth\ rowHeight
+comment6.target=void\ addRow(java.awt.Dimension,\ int,\ int)
+comment6.text=\r\n\ \ A\ new\ row\ has\ been\ completed.\ Use\ the\ dimensions\ of\ this\ row\r\n\ \ to\ update\ the\ preferred\ size\ for\ the\ container.\r\n\r\n\ \ @param\ dim\ update\ the\ width\ and\ height\ when\ appropriate\r\n\ \ @param\ rowWidth\ the\ width\ of\ the\ row\ to\ add\r\n\ \ @param\ rowHeight\ the\ height\ of\ the\ row\ to\ add\r\n
+numComments=7

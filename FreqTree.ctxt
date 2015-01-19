@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FreqTree()
+comment1.params=s\ f\ n
+comment1.target=void\ addWord(java.lang.String,\ int,\ Node)
+comment2.params=s\ f
+comment2.target=void\ addWord(java.lang.String,\ int)
+comment3.params=n
+comment3.target=void\ inOrderTraverse(Node)
+comment4.params=
+comment4.target=void\ inOrderTraverse()
+comment5.params=
+comment5.target=java.lang.String[]\ getWordList()
+comment6.params=n
+comment6.target=void\ inOrderMakeArray(Node)
+numComments=7

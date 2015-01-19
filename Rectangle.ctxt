@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height
+comment0.target=Rectangle(int,\ int,\ int,\ int)
+comment1.params=dx\ dy
+comment1.target=void\ moveRel(int,\ int)
+comment2.params=nx\ ny
+comment2.target=void\ moveAbs(int,\ int)
+numComments=3

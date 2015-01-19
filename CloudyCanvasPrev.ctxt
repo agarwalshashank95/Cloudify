@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=wid
+comment0.target=CloudyCanvasPrev(int)
+comment1.params=
+comment1.target=void\ init()
+comment2.params=g\ s\ c\ x\ y
+comment2.target=void\ paint(java.awt.Graphics,\ java.lang.String,\ java.awt.Color,\ int,\ int)
+comment3.params=s\ c\ size
+comment3.target=void\ addWord(java.lang.String,\ java.awt.Color,\ int)
+comment4.params=r
+comment4.target=boolean\ isFree(Rectangle)
+comment5.params=r
+comment5.target=void\ fillRect(Rectangle)
+comment6.params=
+comment6.target=void\ showFilled()
+numComments=7

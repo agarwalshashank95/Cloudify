@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xx\ yy
+comment0.target=Point(int,\ int)
+comment1.params=nx\ ny
+comment1.target=void\ moveAbs(int,\ int)
+comment2.params=dx\ dy
+comment2.target=void\ moveRel(int,\ int)
+numComments=3
